@@ -2,11 +2,17 @@ name: tour_of_heroes
 description: Tour Of Heroes
 version: 0.0.1
 environment:
-  sdk: '>=2.1.0 <3.0.0'
+  sdk: ">=2.1.0 <3.0.0"
 
 dependencies:
   angular: ^5.2.0
   angular_components: ^0.11.0
+  angular_forms: ^2.0.0
+
+transformers:
+  bootstrap:
+    url: //maxcdn.bootstrapcdn.com/bootstrap/{{version}}
+    version: 4.3.1
 
 dev_dependencies:
   angular_test: ^2.2.0
